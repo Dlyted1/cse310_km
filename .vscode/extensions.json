@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-runtime"
+    ]
+}
+"dotnetAcquisitionExtension.existingDotnetPath": [
+    {
+        "extensionId": "ms-dotnettools.csharp",
+        "path": "C:\\Program Files\\dotnet\\dotnet.exe"
+    }
+]
