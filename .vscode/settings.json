@@ -1,0 +1,4 @@
+{
+    "dotnetAcquisitionExtension.enableTelemetry": true,
+    "dotnetAcquisitionExtension.existingDotnetPath": []
+}
