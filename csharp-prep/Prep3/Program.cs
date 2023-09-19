@@ -1,37 +1,29 @@
 using System;
 
-class program
+class Program
 {
     static void Main(string[] args)
     {
 
-
 Console.WriteLine("Hello Prep3 World!");
 
-// Part 1 and 2 
+// Part 1 and 2 with loop
 Console.Write("What is the magic number? ");
-int number = int.Parse(Console.ReadLine());
+int magicNumber = int.Parse(Console.ReadLine());
 
-Random random = new Random();
-number = random.Next(1, 101);
+int guess;
 
-
-int guess = 0;
-
-while (guess != number)
+do
 {
-
 
     Console.Write("What is your guess? ");
     guess = int.Parse(Console.ReadLine());
 
-
-
-    if (number > guess)
+    if (magicNumber > guess)
     {
         Console.WriteLine("Higher");
     }
-    else if (number < guess)
+    else if (magicNumber < guess)
     {
         Console.WriteLine("Lower");
     }
@@ -39,6 +31,6 @@ while (guess != number)
     {
         Console.WriteLine("You guessed it!");
     }
-   }
- }
+   } while (guess != magicNumber);
+  }
 }
