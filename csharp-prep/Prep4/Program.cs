@@ -30,6 +30,13 @@ class Program
         {
             sum += number;
         }
+
+          // Part 2: average of the entered numbers
+          // By making one of the variables a float first, the computer knows that it has to
+        // do the floating point division, and we get the decimal value that we expect.
+          float average = (float)sum / numbers.Count;
+
             Console.WriteLine($"The sum is :  {sum}");
+            Console.WriteLine($"The average is :  {average}");
         }
 }
