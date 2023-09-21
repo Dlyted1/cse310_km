@@ -49,10 +49,17 @@ class Program
             }
           }
 
-
+        // Stretch Challenge: Sort numbers and display
+        numbers.Sort();
+        
             Console.WriteLine($"The sum is :  {sum}");
             Console.WriteLine($"The average is :  {average}");
             Console.WriteLine($"The largest number is:  {maxNumber}");
             Console.WriteLine($"The smallest positive number is:  {lowNumber}");
+            Console.WriteLine("The sorted list is:");
+            foreach (int number in numbers)
+            {
+               Console.Write(number + " ");
+            }
         }
 }
