@@ -59,7 +59,7 @@ class Program
             Console.WriteLine("The sorted list is:");
             foreach (int number in numbers)
             {
-               Console.Write(number + " ");
+               Console.WriteLine(number + " ");
             }
         }
 }
