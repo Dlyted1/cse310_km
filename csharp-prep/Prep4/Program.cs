@@ -39,8 +39,20 @@ class Program
           // Part 3: Find the maximum, or largest, number in the list
           int maxNumber = numbers.Count > 0 ? numbers.Max() : 0;
 
+          // Stretch Challenge: Smallest Positive number and sorted list
+          int lowNumber = int.MaxValue;
+          foreach (int number in numbers)
+          {
+            if (number > 0 && number < lowNumber)
+            {
+                lowNumber = number;
+            }
+          }
+
+
             Console.WriteLine($"The sum is :  {sum}");
             Console.WriteLine($"The average is :  {average}");
             Console.WriteLine($"The largest number is:  {maxNumber}");
+            Console.WriteLine($"The smallest positive number is:  {lowNumber}");
         }
 }
