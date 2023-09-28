@@ -17,8 +17,8 @@ class Program
 
 
         // Call DisplayDetails to display job details
-        job1.DisplayDetails();
-        job2.DisplayDetails();
+        // job1.DisplayDetails();
+        // job2.DisplayDetails();
 
         Resume myResume = new Resume();
         myResume._name = "Allison Rose";
@@ -26,7 +26,8 @@ class Program
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
 
-        myResume.DisplayResumeDetails();
+        // myResume.DisplayResumeDetails();
+        myResume.Display();
 
 
     }
