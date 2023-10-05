@@ -30,6 +30,7 @@ class Journal
             Console.Write("Enter Filename: ");
             string filename = Console.ReadLine();
 
+ 
             using (StreamWriter writer = new StreamWriter(filename))
             {
                 writer.WriteLine("Date,Prompt,Response");
