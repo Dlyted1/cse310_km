@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.IO;
 
 class Journal
     {  
@@ -69,7 +71,7 @@ class Journal
             Console.WriteLine("Loaded");
        }
             
-            }
+     }
         
 
 
