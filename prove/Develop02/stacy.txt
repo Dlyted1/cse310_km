@@ -1,0 +1,3 @@
+Date,Prompt,Response
+10/13/2023,What was the weather like today? ,Nice peaceful weather kinda day
+10/13/2023,How did I show gratitude today? ,dkjsljdsl djsljdsl djsljd2
